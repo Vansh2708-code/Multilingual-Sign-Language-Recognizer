@@ -92,22 +92,22 @@ The multilingual application combines ASL, ISL, and numeral recognition into a s
 
 ```text
 Multilingual-Sign-Language-Recognizer/
-│
-├── (Folder) __pycache_
-├── (Folder) Charts
-├── (Folder) Data_collection files
-├── (Folder) dataset_isl
-├── (Folder) dataset_asl
-├── (Folder) dataset_numerals
-├── (Folder) dataset_rsl
-├── (Folder) dataset_words
-├── (Folder) model_isl
-├── (Folder) model_asl
-├── (Folder) model_numerals
-├── (Folder) model_rsl
-├── (Folder) model_words
-├── (Folder) -p
-├── (Folder) Seperate_sign_language_files
+├── Zip Folder
+│          ├── (Folder) __pycache_
+│          ├── (Folder) Charts
+│          ├── (Folder) Data_collection files
+│          ├── (Folder) dataset_isl
+│          ├── (Folder) dataset_asl
+│          ├── (Folder) dataset_numerals
+│          ├── (Folder) dataset_rsl
+│          ├── (Folder) dataset_words
+│          ├── (Folder) model_isl
+│          ├── (Folder) model_asl
+│          ├── (Folder) model_numerals
+│          ├── (Folder) model_rsl
+│          ├── (Folder) model_words
+│          ├── (Folder) -p
+│          └── (Folder) Seperate_sign_language_files
 │
 ├── train_numerals_model.py
 ├── data_collection_simple.py
