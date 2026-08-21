@@ -93,42 +93,66 @@ The multilingual application combines ASL, ISL, and numeral recognition into a s
 ```text
 Multilingual-Sign-Language-Recognizer/
 │
-├── model_asl/
-│   └── ASL trained model
-│
-├── model_isl/
-│   └── ISL trained model
-│
-├── model_rsl/
-│   └── Additional sign language model
-│
-├── model_numerals/
-│   ├── keras_model.h5
-│   ├── labels.txt
-│   └── training_history.png
-│
-├── dataset_numerals/
-│   ├── 0/
-│   ├── 1/
-│   ├── 2/
-│   ├── ...
-│   └── 9/
-│
-├── data_collection_files/
-│   └── data_collection_numerals.py
+├── (Folder) __pycache_
+├── (Folder) Charts
+├── (Folder) Data_collection files
+├── (Folder) dataset_isl
+├── (Folder) dataset_asl
+├── (Folder) dataset_numerals
+├── (Folder) dataset_rsl
+├── (Folder) dataset_words
+├── (Folder) model_isl
+├── (Folder) model_asl
+├── (Folder) model_numerals
+├── (Folder) model_rsl
+├── (Folder) model_words
+├── (Folder) -p
+├── (Folder) Seperate_sign_language_files
 │
 ├── train_numerals_model.py
+├── data_collection_simple.py
+├── data_collection_words.py
+├── data_collection_words_fixed.py
+├── demo_output.py
 ├── main_numerals.py
-├── Multilingual_recognizer_with_numerals.py
 ├── ClassificationModule.py
+├── HandTrackingModule.py
+├── improved_data_collection_numerals
+├── main_numerals.py
+├── main_isl.py
+├── main_asl.py
+├── main_rsl.py
+├── test_isl_numerals.py
+├── test_isl_numerals_console.py
+├── test_models_basic.py
+├── test_models_simple.py
+├── test_numerals_model.py
+├── train_simple.py
+├── train_words_model.py
+├── train_words_optimized.py
+├── UTF8ClassificationModule.py
+├── WORDS_QUICKSTART.py
+├── train_words_model_fixed.py
 │
+├── Multilingual_recognizer_with_numerals.py
+├── Multilingual_recognizer_with_numerals_log.py
+├── Multilingual_sign_language_recognizer.py
+├── Multilingual_sign_language_recognizer_ISL_only.py
+│
+├── README.md
 ├── START_HERE.md
+├── INDEX.md
 ├── QUICK_START_NUMERALS.md
 ├── ADDING_NUMERALS_GUIDE.md
 ├── GENERIC_TRAINING_TEMPLATE.md
 ├── CHECKLIST.md
 ├── VISUAL_WORKFLOW.md
-└── IMPLEMENTATION_SUMMARY.md
+├── FINAL_SUMMARY.md
+├── IMPLEMENTATION_SUMMARY.md
+│
+├── IMPLEMENTATION_COMPLETE.txt
+├── WORDS_FEATURE_README.txt
+└── WORDS_IMPLEMENTATION_SUMMARY.txt
 ```
 
 The numeral implementation includes dedicated data collection, training, testing, and multilingual recognition scripts.
