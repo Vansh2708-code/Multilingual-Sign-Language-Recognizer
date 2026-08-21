@@ -84,9 +84,6 @@ The multilingual application combines ASL, ISL, and numeral recognition into a s
           ┌────┴────┐
           ▼         ▼
         📝 Text    🔊 Speech
-```
-
----
 
 
 ```
